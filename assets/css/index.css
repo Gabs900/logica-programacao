@@ -1,0 +1,16 @@
+.container{
+    width: 80%;
+    margin: 1rem auto;
+}
+.linhas{
+    display: grid;
+    grid-template-columns: repeat(var(--coluna-count,1), 1fr);
+    gap:10px;
+}
+.coluna{
+    margin: 1rem 0;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
